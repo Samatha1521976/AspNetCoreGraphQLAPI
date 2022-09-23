@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>019863d2-4303-400f-8521-a427af71eb5c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Server.All" Version="5.0.0" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.28" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+
+</Project>
